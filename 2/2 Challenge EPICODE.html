@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sulla Musica</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Benvenuto in <span style="color: orange;">MUSICALMENTE</span></h1>
+    <h3 style="text-align: center;">Completa il questionario sottostante per essere registrato nella nostra pagina web!
+    </h3>
+    <div>
+        <form onsubmit="alert('Registrato Correttamente')">
+            <div>
+                <p style="background-color: orange;"><strong>COME TI CHIAMI?</strong></p>
+                <input type="text" placeholder="Inserisci il tuo Nome">
+                <input type="text" placeholder="Inserisci il tuo Cognome">
+            </div>
+            <div>
+                <p style="background-color: orange;"><strong>INDIRIZZO EMAIL?</strong></p>
+                <input type="email" placeholder="Indirizzo Email">
+            </div>
+            <div>
+                <p style="background-color: orange;"><strong>PASSWORD?</strong></p>
+                <input type="password" placeholder="Password">
+            </div>
+            <div>
+                <p style="background-color: orange;"><strong>DATA DI NASCITA?</strong></p>
+                <input type="date">
+            </div>
+            <div>
+                <p style="background-color: orange;"><strong>NUMERO DI TELEFONO?</strong></p>
+                <input type="number">
+            </div>
+            <div>
+                <p style="background-color: orange;"><strong>PREFERENZE MUSICALI</strong></p>
+                <table border="1" ; style="width:100%;">
+                    <tr>
+                        <td><strong>Genere Musicale</strong></td>
+                        <td><strong>Descrizione Genere</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Pop</td>
+                        <td>Musica popolare caratterizzata da melodie orecchiabili, la celebre struttura
+                            versi-ritornello e una produzione mainstream. Spesso orientata verso le tendenze di massa e
+                            varia nello stile.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Rap e Hip Hop</td>
+                        <td>Genere che enfatizza il testo, la poesia e le rime, parlate o cantate su basi ritmiche.
+                            Spesso esplora tematiche come la vita urbana, la povertà, e la politica.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Rock</td>
+                        <td>Genere caratterizzato da un forte enfasi sulle chitarre elettriche, le percussioni e
+                            l'espressività vocale. Include diversi sottogeneri dall'hard rock al rock alternativo.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Reggaton</td>
+                        <td>Fusione di hip hop, reggae e ritmi latini, con beat molto cadenzati e testi che spesso
+                            trattano temi urbani, di vita di strada e di sensualità.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Classica</td>
+                        <td>Musica prevalentemente orchestrale o cameristica, valorizzata dalla sua complessità
+                            strutturale e armonica. Spesso associata a composizioni che vanno dal periodo barocco al
+                            romanticismo.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Elettronica</td>
+                        <td>Genere basato sull'uso di strumenti elettronici e sintetizzatori. Ampio e variegato, include
+                            sottogeneri come house, techno e ambient.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Jazz</td>
+                        <td>Genere caratterizzato da improvvisazione, ritmi complessi e spesso una forte presenza di
+                            strumenti a fiato. Fonde elementi di musica africana, blues e ragtime.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>Musica dalle radici folk americane, con strumentazioni che includono chitarre acustiche,
+                            banjo e violini, e testi che spesso parlano di vita rurale e relazioni amorose.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Techno</td>
+                        <td>Sottogenere della musica elettronica che mette l'accento su ritmi ripetitivi e sonorità
+                            futuristiche, spesso associato alla cultura dei club e della dance.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Indie</td>
+                        <td>Musica prodotta indipendentemente dalle grandi etichette discografiche, spesso con un
+                            approccio più sperimentale e personale.</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <p style="background-color: orange;"><strong>ACCETTAZIONE TERMINI E CONDIZIONI</strong></p>
+                <img src="https://images.prismic.io/lexdoit/b105010c-994c-4281-9ca1-6f069e16c0ef_Termini-e-Condizioni-Sito-Web-o-App.png?auto=compress,format"
+                    style="height: 850px;" alt="Modello Termini e Condizioni">
+                <div>
+                    <input type="radio">
+                    <p style="display:inline">Accetto</p>
+                    <input type="radio">
+                    <p style="display: inline;">Non Accetto</p>
+                </div>
+            </div>
+            <div style="margin-top: 1%;">
+                <button type="submit">Invia Registrazione
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
